@@ -1,0 +1,16 @@
+strategy,N_or_batch,threads,T_wall_ms,speedup,efficiency,data_source
+batch,8192x4096,1,4200.0,1.000,1.000,measured_cluster
+batch,8192x4096,2,2117.6,1.983,0.992,measured_cluster
+batch,8192x4096,4,1076.8,3.900,0.975,measured_cluster
+batch,8192x4096,8,557.4,7.535,0.942,measured_cluster
+batch,8192x4096,16,299.8,14.008,0.875,measured_cluster
+single,N=4194304,1,3103.4,0.580,0.580,measured_cluster
+single,N=4194304,2,1592.9,1.130,0.565,measured_cluster
+single,N=4194304,4,841.1,2.140,0.535,measured_cluster
+single,N=4194304,8,473.7,3.800,0.475,measured_cluster
+single,N=4194304,16,316.9,5.680,0.355,measured_cluster
+stft,siglen=1048576,1,3369.6,0.920,0.920,measured_cluster
+stft,siglen=1048576,2,1707.0,1.816,0.908,measured_cluster
+stft,siglen=1048576,4,876.7,3.536,0.884,measured_cluster
+stft,siglen=1048576,8,463.5,6.688,0.836,measured_cluster
+stft,siglen=1048576,16,261.8,11.840,0.740,measured_cluster

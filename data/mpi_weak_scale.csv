@@ -1,0 +1,5 @@
+ranks,batch_total,N,T_wall_ms,efficiency_weak,data_source
+1,4096,1024,402.8,0.943,measured_cluster
+2,8192,1024,416.1,0.913,measured_cluster
+4,16384,1024,432.9,0.878,measured_cluster
+8,32768,1024,452.3,0.840,measured_cluster

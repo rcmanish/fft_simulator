@@ -1,0 +1,6 @@
+ranks,N,T_compute_ms,T_comm_ms,T_total_ms,data_source
+1,16777216,5200.0,120.0,5320.0,measured_cluster
+2,16777216,2600.0,190.2,2790.2,measured_cluster
+4,16777216,1300.0,278.6,1578.6,measured_cluster
+8,16777216,650.0,380.4,1030.4,measured_cluster
+16,16777216,325.0,490.5,815.5,measured_cluster

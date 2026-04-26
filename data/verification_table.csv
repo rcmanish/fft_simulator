@@ -1,0 +1,8 @@
+signal,parseval_error,ifft_roundtrip_error,dft_vs_fft_linf,all_pass
+Pure sinusoid,3.188e-13,8.167e-14,9.154e-15,PASS
+Multi-tone,9.247e-15,2.442e-13,1.826e-13,PASS
+Chirp,3.037e-13,2.191e-13,1.092e-13,PASS
+Gaussian pulse,4.676e-13,2.449e-13,1.545e-15,PASS
+Square wave,4.288e-13,1.104e-14,1.462e-13,PASS
+White noise,8.865e-14,2.591e-13,1.088e-13,PASS
+Damped sinusoid,1.506e-13,1.274e-13,6.636e-15,PASS

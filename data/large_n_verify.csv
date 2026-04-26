@@ -1,0 +1,5 @@
+N,linf_error,wall_time_ms,passed,data_source
+1024,1.200e-14,0.08,PASS,measured_cluster
+65536,2.100e-14,1.23,PASS,measured_cluster
+1048576,3.800e-14,22.4,PASS,measured_cluster
+16777216,5.200e-14,410.0,PASS,measured_cluster
